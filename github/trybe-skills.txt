@@ -4,3 +4,5 @@ Git
 HTML
 CSS
 React
+mongodb
+SQL

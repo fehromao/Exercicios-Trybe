@@ -31,11 +31,24 @@
 //   console.log ("o maior numero é c")
 // }
 
-const a = 10;
-if (a > 0){
-  console.log("positive")
-} else if(a < 0){
-  console.log("negative")
-} else {
-  console.log("zero")
+// console.log("Exercicio 4")
+// const a = 10;
+// if (a > 0){
+//   console.log("positive")
+// } else if(a < 0){
+//   console.log("negative")
+// } else {
+//   console.log("zero")
+// }
+
+console.log("exercicio 5")
+const angulo1 = 60
+const angulo2 = 60
+const angulo3 = 60
+
+if( angulo1 + angulo2 +angulo3 === 180){
+  console.log("true")
+}
+else {
+  console.log("false")
 }

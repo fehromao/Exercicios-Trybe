@@ -41,14 +41,32 @@
 //   console.log("zero")
 // }
 
-console.log("exercicio 5")
-const angulo1 = 60
-const angulo2 = 60
-const angulo3 = 60
+// console.log("exercicio 5")
+// const angulo1 = 50
+// const angulo2 = 60
+// const angulo3 = 60
 
-if( angulo1 + angulo2 +angulo3 === 180){
-  console.log("true")
-}
-else {
-  console.log("false")
+// if( angulo1 + angulo2 +angulo3 === 180){
+//   console.log("true")
+// }
+// else {
+//   console.log("false")
+// }
+
+let peca = "cavalo";
+switch(peca.toLowerCase()){
+  case "bispo":
+    console.log('mova-se na diagonal'); break;
+  case "rainha":
+    console.log("mova na horizontal ou vertical se estiver livre") ; break;
+  case "rei":
+    console.log("mova-se na horizontal, vertical ou diagonal") ;break;
+  case "cavalo":
+      console.log('mova-se em L'); break;
+  case "peao":
+        console.log('mova-se uma casa para frente'); break;
+  case "torre":
+    console.log('Se estiver livre movimente-se na horizontal ou vertical'); break;      
+  default:
+    console.log(' Erro, peça invalida!')     
 }

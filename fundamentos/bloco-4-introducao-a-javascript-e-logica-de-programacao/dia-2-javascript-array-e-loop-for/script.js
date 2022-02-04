@@ -69,9 +69,21 @@
 
 // 8 - Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
 
-let numeros = [];
-for (let index = 1; index <= 25; index+=1) {
-  numeros.push(index);
+// let numeros = [];
+// for (let index = 1; index <= 25; index+=1) {
+//   numeros.push(index);
   
+// }
+// console.log(numeros);
+
+// 9 - Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 .
+
+let numeros = [ 1,  2,  3,  4,  5,  6,  7,  8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+
+
+for (let index = 1; index < numeros.length; index+=1){
+  console.log(numeros[index] / 2)
+
 }
-console.log(numeros);
+
+ 

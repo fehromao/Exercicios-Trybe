@@ -87,6 +87,20 @@
     image.src = 'https://picsum.photos/200';
     elementesSection1.appendChild(image);
 
+    let elementlistul = document.createElement('ul')
+    elementeSection2.appendChild(elementlistul);
+    let arrayNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+    'Sete', 'Oito', 'Nove', 'Dez'];
+    for( let numeros in arrayNumbers) {
+    let elementsli = document.createElement('li');
+    elementsli.innerHTML = arrayNumbers[numeros]
+    elementlistul.appendChild(elementsli);
+    } 
+
+  
+
+    //Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
+
 
     </script>
   </body>

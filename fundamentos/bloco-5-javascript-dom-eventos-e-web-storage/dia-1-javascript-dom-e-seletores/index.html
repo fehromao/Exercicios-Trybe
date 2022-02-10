@@ -71,6 +71,14 @@
           changeText.innerHTML = changeText.innerHTML.toUpperCase(); 
       }
       changeCapitalLetter();
+
+      function exibirConteudo() {
+        let mostrarConteudo = document.getElementsByTagName('p');
+        for(index = 0; index < mostrarConteudo.length;index+=1 ){
+          console.log(mostrarConteudo[index].innerHTML);
+        }
+      }
+      exibirConteudo();
       
       /*
       Aqui você vai modificar os elementos já existentes utilizando apenas as funções:

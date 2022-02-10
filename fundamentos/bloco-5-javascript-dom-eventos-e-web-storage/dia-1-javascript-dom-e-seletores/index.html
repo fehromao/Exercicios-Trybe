@@ -46,25 +46,32 @@
         let paragrafo = document.getElementsByTagName('p');
         paragrafo[1].innerText = 'Me vejo muito feliz trabalhando como uma DEV de sucesso e desenvolvendo muitas hard skills e soft skills.'
       }
-      mudaTextoParagrafo()
+      mudaTextoParagrafo();
       
       function mudarCorQuadradoAmarelo() {
         let mudarCor = document.getElementsByClassName('main-content')[0];
           mudarCor.style.background = "rgb(76,164,109)";
       }
-      mudarCorQuadradoAmarelo()
+      mudarCorQuadradoAmarelo();
 
       function mudarCorQuadradoVermelho() {
         let alterarCor = document.getElementsByClassName('center-content')[0];
           alterarCor.style.background = 'white'
       }
-      mudarCorQuadradoVermelho()
+      mudarCorQuadradoVermelho();
 
       function corrigirTexto() {
         let corectionText = document.getElementsByTagName('h1')[0];
           corectionText.innerText = 'JavaScript'
       }
-      corrigirTexto()
+      corrigirTexto();
+
+      function changeCapitalLetter() {
+        let changeText = document.getElementsByTagName('p') [0];
+          changeText.innerHTML = changeText.innerHTML.toUpperCase(); 
+      }
+      changeCapitalLetter();
+      
       /*
       Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
       - document.getElementById()
